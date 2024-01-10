@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-10T20:59:49 IST" name="Suite" finished-at="2024-01-10T20:59:59 IST" duration-ms="10594">
+    <groups>
+      <group name="Regression Testing">
+        <method signature="RestAssureHttpMethods.addPlaceInMaps()[pri:1, instance:RestAssureExamples.RestAssureHttpMethods@8f2ef19]" name="addPlaceInMaps" class="RestAssureExamples.RestAssureHttpMethods"/>
+        <method signature="RestAssureHttpMethods.updateAddress(java.lang.String)[pri:0, instance:RestAssureExamples.RestAssureHttpMethods@8f2ef19]" name="updateAddress" class="RestAssureExamples.RestAssureHttpMethods"/>
+      </group> <!-- Regression Testing -->
+    </groups>
+    <test started-at="2024-01-10T20:59:49 IST" name="Test" finished-at="2024-01-10T20:59:59 IST" duration-ms="10594">
+      <class name="RestAssureExamples.RestAssureHttpMethods">
+        <test-method signature="addPlaceInMaps()[pri:1, instance:RestAssureExamples.RestAssureHttpMethods@8f2ef19]" started-at="2024-01-10T20:59:49 IST" name="addPlaceInMaps" finished-at="2024-01-10T20:59:55 IST" duration-ms="5930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPlaceInMaps -->
+        <test-method signature="updateAddress(java.lang.String)[pri:0, instance:RestAssureExamples.RestAssureHttpMethods@8f2ef19]" started-at="2024-01-10T20:59:55 IST" name="updateAddress" data-provider="PayloadDta" finished-at="2024-01-10T20:59:56 IST" depends-on-methods="RestAssureExamples.RestAssureHttpMethods.addPlaceInMaps" duration-ms="1586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raja Street]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddress -->
+        <test-method signature="updateAddress(java.lang.String)[pri:0, instance:RestAssureExamples.RestAssureHttpMethods@8f2ef19]" started-at="2024-01-10T20:59:56 IST" name="updateAddress" data-provider="PayloadDta" finished-at="2024-01-10T20:59:57 IST" depends-on-methods="RestAssureExamples.RestAssureHttpMethods.addPlaceInMaps" duration-ms="1163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sekar Street]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddress -->
+        <test-method signature="updateAddress(java.lang.String)[pri:0, instance:RestAssureExamples.RestAssureHttpMethods@8f2ef19]" started-at="2024-01-10T20:59:57 IST" name="updateAddress" data-provider="PayloadDta" finished-at="2024-01-10T20:59:59 IST" depends-on-methods="RestAssureExamples.RestAssureHttpMethods.addPlaceInMaps" duration-ms="1834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Archu Street]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddress -->
+      </class> <!-- RestAssureExamples.RestAssureHttpMethods -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
