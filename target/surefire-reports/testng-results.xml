@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-10T21:19:12 IST" name="Suite" finished-at="2024-01-10T21:19:24 IST" duration-ms="12174">
+  <suite started-at="2024-01-11T15:10:43 IST" name="Suite" finished-at="2024-01-11T15:10:56 IST" duration-ms="13278">
     <groups>
       <group name="Regression Testing">
-        <method signature="RestAssureHttpMethods.addPlaceInMaps()[pri:1, instance:RestAssureExamples.RestAssureHttpMethods@a1153bc]" name="addPlaceInMaps" class="RestAssureExamples.RestAssureHttpMethods"/>
-        <method signature="RestAssureHttpMethods.updateAddress(java.lang.String)[pri:0, instance:RestAssureExamples.RestAssureHttpMethods@a1153bc]" name="updateAddress" class="RestAssureExamples.RestAssureHttpMethods"/>
+        <method signature="RestAssureHttpMethods.addPlaceInMaps()[pri:1, instance:RestAssureExamples.RestAssureHttpMethods@3270d194]" name="addPlaceInMaps" class="RestAssureExamples.RestAssureHttpMethods"/>
+        <method signature="RestAssureHttpMethods.updateAddress(java.lang.String)[pri:2, instance:RestAssureExamples.RestAssureHttpMethods@3270d194]" name="updateAddress" class="RestAssureExamples.RestAssureHttpMethods"/>
+        <method signature="RestAssureHttpMethods.browserValue(java.lang.String)[pri:3, instance:RestAssureExamples.RestAssureHttpMethods@3270d194]" name="browserValue" class="RestAssureExamples.RestAssureHttpMethods"/>
       </group> <!-- Regression Testing -->
     </groups>
-    <test started-at="2024-01-10T21:19:12 IST" name="Test" finished-at="2024-01-10T21:19:24 IST" duration-ms="12174">
+    <test started-at="2024-01-11T15:10:43 IST" name="Test" finished-at="2024-01-11T15:10:56 IST" duration-ms="13278">
       <class name="RestAssureExamples.RestAssureHttpMethods">
-        <test-method signature="addPlaceInMaps()[pri:1, instance:RestAssureExamples.RestAssureHttpMethods@a1153bc]" started-at="2024-01-10T21:19:12 IST" name="addPlaceInMaps" finished-at="2024-01-10T21:19:17 IST" duration-ms="5633" status="PASS">
+        <test-method signature="addPlaceInMaps()[pri:1, instance:RestAssureExamples.RestAssureHttpMethods@3270d194]" started-at="2024-01-11T15:10:43 IST" name="addPlaceInMaps" finished-at="2024-01-11T15:10:48 IST" duration-ms="5306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addPlaceInMaps -->
-        <test-method signature="updateAddress(java.lang.String)[pri:0, instance:RestAssureExamples.RestAssureHttpMethods@a1153bc]" started-at="2024-01-10T21:19:17 IST" name="updateAddress" data-provider="PayloadDta" finished-at="2024-01-10T21:19:20 IST" depends-on-methods="RestAssureExamples.RestAssureHttpMethods.addPlaceInMaps" duration-ms="2533" status="PASS">
+        <test-method signature="updateAddress(java.lang.String)[pri:2, instance:RestAssureExamples.RestAssureHttpMethods@3270d194]" started-at="2024-01-11T15:10:48 IST" name="updateAddress" data-provider="PayloadDta" finished-at="2024-01-11T15:10:51 IST" depends-on-methods="RestAssureExamples.RestAssureHttpMethods.addPlaceInMaps" duration-ms="2927" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateAddress -->
-        <test-method signature="updateAddress(java.lang.String)[pri:0, instance:RestAssureExamples.RestAssureHttpMethods@a1153bc]" started-at="2024-01-10T21:19:20 IST" name="updateAddress" data-provider="PayloadDta" finished-at="2024-01-10T21:19:22 IST" depends-on-methods="RestAssureExamples.RestAssureHttpMethods.addPlaceInMaps" duration-ms="2100" status="PASS">
+        <test-method signature="updateAddress(java.lang.String)[pri:2, instance:RestAssureExamples.RestAssureHttpMethods@3270d194]" started-at="2024-01-11T15:10:51 IST" name="updateAddress" data-provider="PayloadDta" finished-at="2024-01-11T15:10:53 IST" depends-on-methods="RestAssureExamples.RestAssureHttpMethods.addPlaceInMaps" duration-ms="2095" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateAddress -->
-        <test-method signature="updateAddress(java.lang.String)[pri:0, instance:RestAssureExamples.RestAssureHttpMethods@a1153bc]" started-at="2024-01-10T21:19:22 IST" name="updateAddress" data-provider="PayloadDta" finished-at="2024-01-10T21:19:24 IST" depends-on-methods="RestAssureExamples.RestAssureHttpMethods.addPlaceInMaps" duration-ms="1835" status="PASS">
+        <test-method signature="updateAddress(java.lang.String)[pri:2, instance:RestAssureExamples.RestAssureHttpMethods@3270d194]" started-at="2024-01-11T15:10:53 IST" name="updateAddress" data-provider="PayloadDta" finished-at="2024-01-11T15:10:56 IST" depends-on-methods="RestAssureExamples.RestAssureHttpMethods.addPlaceInMaps" duration-ms="2815" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,6 +49,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateAddress -->
+        <test-method signature="browserValue(java.lang.String)[pri:3, instance:RestAssureExamples.RestAssureHttpMethods@3270d194]" started-at="2024-01-11T15:10:56 IST" name="browserValue" finished-at="2024-01-11T15:10:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserValue -->
       </class> <!-- RestAssureExamples.RestAssureHttpMethods -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

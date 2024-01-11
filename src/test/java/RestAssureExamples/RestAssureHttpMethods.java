@@ -14,6 +14,7 @@ import static org.testng.Assert.assertEquals;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 
@@ -44,7 +45,7 @@ public String placeId,address;
 	}
     
     //update the address using PUt method\
-	@Test(dependsOnMethods={"addPlaceInMaps"}, groups= {"Regression Testing"}, dataProvider="PayloadDta")
+	@Test(priority=2, dependsOnMethods={"addPlaceInMaps"}, groups= {"Regression Testing"}, dataProvider="PayloadDta")
     public void updateAddress(String newAddress)
     {
 		RestAssured.baseURI = "https://rahulshettyacademy.com";	
@@ -81,6 +82,12 @@ public String placeId,address;
 	
 
 }
+	@Parameters("Browser")
+	@Test(priority=3, groups= {"Regression Testing"})
+	public void browserValue(String Browser)
+	{
+		System.out.println("The browser value is "+Browser);
+	}
 	
 	 @DataProvider(name="PayloadDta")
 	   public Object getpayload()
